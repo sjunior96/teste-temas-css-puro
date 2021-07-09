@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/teste-temas-css-puro/static/css/main.5f35c060.chunk.css",
+    "main.js": "/teste-temas-css-puro/static/js/main.5269d63e.chunk.js",
+    "main.js.map": "/teste-temas-css-puro/static/js/main.5269d63e.chunk.js.map",
+    "runtime-main.js": "/teste-temas-css-puro/static/js/runtime-main.01dc61c6.js",
+    "runtime-main.js.map": "/teste-temas-css-puro/static/js/runtime-main.01dc61c6.js.map",
+    "static/js/2.201118af.chunk.js": "/teste-temas-css-puro/static/js/2.201118af.chunk.js",
+    "static/js/2.201118af.chunk.js.map": "/teste-temas-css-puro/static/js/2.201118af.chunk.js.map",
+    "static/js/3.887e53fc.chunk.js": "/teste-temas-css-puro/static/js/3.887e53fc.chunk.js",
+    "static/js/3.887e53fc.chunk.js.map": "/teste-temas-css-puro/static/js/3.887e53fc.chunk.js.map",
+    "index.html": "/teste-temas-css-puro/index.html",
+    "static/css/main.5f35c060.chunk.css.map": "/teste-temas-css-puro/static/css/main.5f35c060.chunk.css.map",
+    "static/js/2.201118af.chunk.js.LICENSE.txt": "/teste-temas-css-puro/static/js/2.201118af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01dc61c6.js",
+    "static/js/2.201118af.chunk.js",
+    "static/css/main.5f35c060.chunk.css",
+    "static/js/main.5269d63e.chunk.js"
+  ]
+}
