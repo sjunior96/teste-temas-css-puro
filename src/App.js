@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import './themes/themes.css';
+import Button from './components/Button';
 
-function App() {
+export default () => {
+  const [currentTheme, setCurrentTheme] = useState("light");
+
+  const [temas, setTemas] = useState([{ id: 'light', nome: "Tema Claro" }, { id: 'dark', nome: "Tema Escuro" }]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`${currentTheme}`}>
+      <h1>Temas</h1>
+      <p>{currentTheme}</p>
+      <p>{JSON.stringify(temas.filter((tema) => tema.id === currentTheme)[0])}</p>
+      <Button />
+
+      <select value={currentTheme} onChange={(e) => setCurrentTheme(e.target.value)}>
+        {temas.map((tema) => <option key={tema.id} value={tema.id}>{tema.nome}</option>)}
+      </select>
     </div>
   );
 }
-
-export default App;
